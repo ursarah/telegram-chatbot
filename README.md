@@ -3,7 +3,7 @@
 Um bot para fãs do time de CS:GO da FURIA, feito com Python e a biblioteca `pyTelegramBotAPI`.  
 Com ele você pode ver próximos jogos, simular a torcida, responder quizzes e muito mais.
 
-**Acesse o bot:** [Clique aqui para abrir no Telegram](https://t.me/SEU_BOT)
+**Acesse o bot:** [Clique aqui para abrir no Telegram](https://t.me/FuriaTCSBot)
 ---
 
 # 🚀 Funcionalidades
@@ -58,7 +58,10 @@ TOKEN_BOT=SEU_TOKEN_AQUI
 python main.py
 ```
 
-## Front end
+5. Acesse o bot por esse link: https://t.me/FuriaTCSBot
+
+
+## Front end (opcional)
 
 1. Entre no repositorio:
 

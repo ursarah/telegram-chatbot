@@ -23,28 +23,58 @@ Com ele você pode ver próximos jogos, simular a torcida, responder quizzes e m
 - dotenv (`python-dotenv`)
 
 ---
+### Clone o repositorio
+
+```
+git clone https://github.com/ursarah/telegram-chatbot.git
+```
+
 
 # ▶️ Como rodar
 ## Back end
 
-1. Clone o repositório:
+1. Entre no repositorio:
 
- ```bash
- git clone https://github.com/ursarah/telegram-chatbot.git
- cd telegram-chatbot/backend
- ```
+```bash
+cd backend
+```
 
-2. Instale as dependencias
+2. Instale as dependencias:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Crie um arquivo **.env** e nomeei o seu token como **TOKEN_BOT**
+3. Crie um arquivo **.env** e nomeei o seu token como **TOKEN_BOT**:
 
-```bash
+```.env
 TOKEN_BOT=SEU_TOKEN_AQUI
 ```
-## Frontend (opcional)
 
-1.
+4. Rode o codigo localmente:
+
+```bash
+python main.py
+```
+
+## Frontend
+
+1. Entre no repositorio:
+
+```bash
+cd frontend
+```
+
+2. Instale as dependencias:
+
+```bash
+npm install
+```
+
+3. Rode localmente:
+
+```bash
+npm run dev
+```
+
+4. Entre em http://localhost:5173/
